@@ -2,7 +2,6 @@ name: fabrikate-traefik2
 subcomponents:
   - name: traefik2
     type: helm
-    source: https://github.com/containous/traefik-helm-chart
+    source: https://github.com/timfpark/traefik-helm-chart
     method: git
     path: traefik
-    version: 43d63f418836d7aaac03cfca5b54f4287c8acf9c
