@@ -4,11 +4,11 @@ path: "./manifests"
 subcomponents:
   - name: "grafana"
     type: helm
-    source: "https://github.com/helm/charts"
-    method: "git"
-    path: "stable/grafana"
+    source: "https://grafana.github.io/helm-charts"
+    method: "helm"
+    path: "grafana"
   - name: "prometheus"
     type: helm
-    source: "https://github.com/helm/charts"
-    method: "git"
-    path: "stable/prometheus"
+    source: "https://prometheus-community.github.io/helm-charts"
+    method: "helm"
+    path: "prometheus"
